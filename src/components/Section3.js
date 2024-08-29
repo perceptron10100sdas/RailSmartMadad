@@ -7,7 +7,7 @@ const Section3 = () => {
       <span id="sub-heading" className="animate-pulse text-center">
         RAIL MADAD
       </span>
-      <span id="heading" className='text-center'>COMPLAINT</span>
+      <span id="heading" className='text-center block text-4xl font-bold'>COMPLAINT</span>
       </div>
     </div>
   )

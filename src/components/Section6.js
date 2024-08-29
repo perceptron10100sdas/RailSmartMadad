@@ -49,12 +49,8 @@ function Section6() {
     <div id="section6">
       <section className="mx-auto max-w-7xl px-2 py-10 md:px-0">
         <div>
-          <div className="mx-auto max-w-2xl lg:text-center">
-            
-            <h2 id="heading" className="faqheading text-center">
-              FAQ<span style={{ fontFamily: '"Inter", sans-serif' }}>s</span>
-            </h2>
-          </div>
+        <span id="sub-heading" className="animate-pulse text-center">RAIL MADAD</span>
+        <span id="heading" className='mb-8 text-center block text-4xl font-bold'>FAQs</span>
           <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
             {faqs.map((faq, index) => (
               <div

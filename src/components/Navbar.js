@@ -119,16 +119,16 @@ const Navbar = ({name}) => {
                   onClick={() => handleNavigation("section4")}
                   className="nav-links block text-white rounded hover:bg-[#762626] md:bg-transparent cursor-pointer"
                 >
-                  Community
+                  Services
                 </button>
               </li>
-      
+
               <li>
                 <button
                   onClick={() => handleNavigation("section5")}
                   className="nav-links block text-white rounded hover:bg-[#762626] md:bg-transparent cursor-pointer"
                 >
-                  Services
+                  Review
                 </button>
               </li>
               <li>

@@ -8,8 +8,8 @@ const Section2 = () => {
       <span id="sub-heading" className="animate-pulse text-center">
         RAIL MADAD
       </span>
-      <span id="heading" className='text-center mb-8'>ABOUT</span>
-    <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-[#762626] before:from-transparent before:via-[#762626] before:to-transparent">
+      <span id="heading" className='text-center block text-4xl font-bold mb-8'>ABOUT</span>
+    <div id="timeline" className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-[#762626] before:from-transparent before:via-[#762626] before:to-transparent">
       
       {/* Item #1 */}
       <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">

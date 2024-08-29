@@ -241,6 +241,10 @@
   display: block;
 }
 
+/* Section Styles */
+#section1, #section2, #section3, #section4, #section5, #section6 {
+  font-family: "Inter", sans-serif;
+}
 
 /* Responsive Styles */
 @media (max-width: 1260px) {
@@ -249,27 +253,22 @@
   }
 }
 
-@media (max-width: 400px) {
-  .custom-mx {
-    margin-left: 3vw;
-    margin-right: 3vw;
-  }
 
-  .nav-reg {
-    margin-right: -40px;
+@media (max-width: 800px){
+  #herovideo{
+    max-width: 400px;
   }
 }
 
-@media (max-width: 1024px) {
 
-  #section2 {
-    margin-top: 50px;
-  }
-}
 
 @media (max-width: 769px) {
   .nav-links {
     margin-top: 20px;
+  }
+
+  #herovideo{
+    max-width: 600px;
   }
 
   #signinlogo, #registerlogo {
@@ -306,6 +305,14 @@
     font-size: 25px;
     line-height: 35px;
   }
+
+  #abouticon{
+    display: none;
+  }
+
+  /* #timeline{
+    display: none;
+  } */
 }
 
 @media (max-width: 480px) {
@@ -319,6 +326,10 @@
 
   #footer {
     padding: 6vw 5vw 12vw;
+  }
+
+  #herovideo{
+    max-width: 300px;
   }
 
   #signintext {
@@ -348,5 +359,16 @@
   #register-inputs-div select {
     height: auto;
     width: 100%;
+  }
+
+  @media (max-width: 400px) {
+    .custom-mx {
+      margin-left: 3vw;
+      margin-right: 3vw;
+    }
+  
+    .nav-reg {
+      margin-right: -40px;
+    }
   }
 }
