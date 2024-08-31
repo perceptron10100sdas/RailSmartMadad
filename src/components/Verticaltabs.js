@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import TrainIcon from '@mui/icons-material/Train';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+import { useState } from 'react';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -66,7 +67,7 @@ export default function VerticalTabs() {
     }
 
    
-  };
+ 
 
   return (
 
@@ -90,7 +91,7 @@ export default function VerticalTabs() {
        
        
       </Tabs>
-      <form onSubmit={handleSubmit} className='flex flex-col sm:flex-row gap-4'>
+      <form  className='flex flex-col sm:flex-row gap-4'>
       <TabPanel value={value} index={0}>
         <p>Enter your Number</p>
        <input className=" bg-slate-200 rounded-xl shadow-sm shadow-black h-10 w-full"  id='phone' onChange={handleChange}
@@ -244,5 +245,7 @@ export default function VerticalTabs() {
     
      </form>
     </Box>
+
   );
 
+};
